@@ -1,0 +1,34 @@
+# Core LLM APIs
+google-generativeai>=0.3.0          # Google Gemini API
+openai>=1.3.0                        # OpenAI API
+anthropic>=0.7.0                     # Anthropic Claude API
+httpx>=0.24.0                        # Async HTTP client for OpenRouter
+
+# Web Interface
+gradio>=4.0.0                        # Modern web UI framework
+
+# Configuration & Utilities
+python-dotenv>=1.0.0                 # Environment variable management
+pydantic>=2.0.0                      # Data validation with Python types
+
+# Async Support
+aiohttp>=3.8.0                       # Async HTTP client
+asyncio-contextmanager>=1.0.0        # Async context managers
+
+# Data Processing
+pandas>=2.0.0                        # Data manipulation
+numpy>=1.24.0                        # Numerical computing
+
+# Development & Testing
+pytest>=7.0.0                        # Testing framework
+pytest-asyncio>=0.21.0               # Async test support
+black>=23.0.0                        # Code formatter
+flake8>=6.0.0                        # Linting
+mypy>=1.0.0                          # Type checking
+
+# Logging & Monitoring
+python-json-logger>=2.0.0            # JSON logging for better debugging
+
+# Optional: Production Deployment
+gunicorn>=21.0.0                     # WSGI server for production
+uvicorn>=0.23.0                      # ASGI server for async apps
